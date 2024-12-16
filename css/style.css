@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+    column-gap: 25px ;
+}
+ul li > a {
+    color: #b1b1d2;
+    text-decoration: none;
+}
+ul li:hover > a{
+    color: #fd8300;
+}
+body{
+    font-family: arial;
+    margin: 0;
+}
+.top-line {
+    padding: 15px;
+    background-color: #1f1f56;
+}
+.top-line ul{
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 24px;
+    color: #b1b1d2;
+}
+.button a{
+    padding: 13px;
+    display: block;
+    border-radius: 25px;
+    background-color: #ffffff;
+    border: 2px solid #fd8300;
+}
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+}
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+.top-tel{
+    padding: 16px;
+}
+.top img{
+    display: inline-block;
+}
+.logo{
+    max-width: 960px;
+    margin: 0 auto;
+}
+.main-logo {
+    background: url(/img/TopPhoto.png) no-repeat center/cover;
+    padding: 45px;
+}
+.top a{
+    text-decoration: none;
+    color: #25252c;
+    font-family: "Arial";
+}
+.top{
+    align-items: center;
+    font-size: 18px;
+    line-height: 24px;
+    color: #25252c;
+    font-weight: bold;
+}
+.email-top p{
+    font-size: 16px;
+    text-decoration: underline;
+    color: #25252c;
+    font-family: "Arial";
+}
+.skype-top a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: underline;
+    color: #25252c;
+}
+.main-logo h2{
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+}
+.main-logo p{ 
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    font-family: "Arial";
+    text-align: center;
+    padding: 5px;
+}
+p.price {
+    font-size: 40px;
+    line-height: 24px;
+    color: #fd8300;
+    font-weight: bold;
+    font-family: "Arial";
+    padding: 5px;
+}
+h2{
+    font-size: 30px;
+    line-height: 24px;
+    color: #24242b;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+}
+.main-text p{
+    padding: 5px;
+    width: 677px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #666666;
+    font-family: "Arial";
+}
+.detal-for{
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: underline;
+    color: #fd8300;
+    font-weight: bold;
+    font-family: "Arial";
+}
+.card-1{
+    width: 440px;
+    height: 648px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    border: 1px solid #d7dbe8;
+}
+hr{
+    border: none;
+    width: 100%;
+    height: 1px;
+    background-color: #e4e4ec;
+    margin: 30px auto;
+}
+.popular-pr p{
+    padding: 22px;
+    font-size: 24px;
+    line-height: 24px;
+    color: #24242b;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+}
+.houses{
+    display: flex;
+}
+h2 a {
+    font-size: 14px;
+    line-height: 24px;
+    color: #1f1f56;
+    font-weight: bold;
+    font-family: "Arial";
+}
+.house1 a{
+    font-size: 14px;
+    line-height: 24px;
+    color: #1f1f56;
+    font-weight: bold;
+    text-decoration: none;
+}
+.house1 p{
+    font-size: 13px;
+    color: #9999a6;
+    list-style: none;
+}
+.house2 a{
+    font-size: 14px;
+    line-height: 24px;
+    color: #1f1f56;
+    font-weight: bold;
+    text-decoration: none; 
+}
+.house2 p{
+    font-size: 13px;
+    color: #9999a6;
+    list-style: none;
+}
+.house3 a{
+    font-size: 14px;
+    line-height: 24px;
+    color: #1f1f56;
+    font-weight: bold;
+    text-decoration: none;
+  }
+.house3 p{
+    font-size: 13px;
+    color: #9999a6;
+    list-style: none;
+}
+.footer{
+    width: 1200px;
+    height: 205px;
+    background-color: #ededf5;
+}
