@@ -147,8 +147,8 @@ hr{
     background-color: #e4e4ec;
     margin: 30px auto;
 }
-.popular-pr p{
-    padding: 22px;
+.popular-pr{
+    padding: 10px;
     font-size: 24px;
     line-height: 24px;
     color: #24242b;
