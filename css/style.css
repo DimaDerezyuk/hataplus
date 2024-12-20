@@ -133,13 +133,6 @@ h2{
     font-weight: bold;
     font-family: "Arial";
 }
-.card-1{
-    width: 440px;
-    height: 648px;
-    border-radius: 30px;
-    background-color: #ffffff;
-    border: 1px solid #d7dbe8;
-}
 hr{
     border: none;
     width: 100%;
@@ -147,8 +140,7 @@ hr{
     background-color: #e4e4ec;
     margin: 30px auto;
 }
-.popular-pr{
-    padding: 10px;
+.popular-pr p{
     font-size: 24px;
     line-height: 24px;
     color: #24242b;
@@ -202,7 +194,24 @@ h2 a {
     list-style: none;
 }
 .underline{
-    width: 1200px;
-    height: 205px;
     background-color: #ededf5;
+    padding: 20px
+}
+.underline-text a{
+    font-size: 14px;
+    line-height: 26px;
+    color: #666666;
+    font-family: "Arial";
+}
+.underline-number-skype{
+    font-size: 18px;
+    line-height: 24px;  
+    color: #25252c;
+    font-weight: bold;
+    font-family: "Arial";
+}
+.footer{
+    text-align: center;
+    padding: 9px;
+    background-color: #dcdce6;
 }
